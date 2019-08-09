@@ -1,0 +1,32 @@
+{
+  "name": "Typescript-express-server",
+  "version": "1.0.0",
+  "description": "Typescript Express server",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilinkis/Typescript-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilinkis/Typescript-express-server/issues"
+  },
+  "homepage": "https://github.com/kilinkis/Typescript-express-server#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cookie-session": "^2.0.37",
+    "@types/express": "^4.17.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
